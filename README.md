@@ -99,12 +99,11 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # 4. Generate training data (optional)
-python training_data/generation_script.py
+python generate_dataset.py  #you can also decid eto leave the code as it is since it will use the enhanced_data_engineering_dataset.json (2000 records) by default
 
-# 5. Run fine-tuning
-python src/model_training.py
+# 5. Run LLM fine-tuning and testing code
+python fine_tune_LLM_Data_Engineering.ipynb
 
-# 6. Test the model
-python src/testing_suite.py
+
 
 ```
