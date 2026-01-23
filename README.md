@@ -27,7 +27,7 @@ The project also demonstrates how to fine-tune sophisticated Large Language Mode
 | **Hardware Investment** | • A100/H100 GPUs<br>• $10,000+ per unit<br>• Enterprise licensing | • RTX 4070/4080<br>• $600-$1500 per unit<br>• Consumer hardware | **94% lower cost**<br>Accessible to small teams & startups |
 | **Deployment Timeline** | • Days waiting for cloud resources<br>• Security/compliance reviews<br>• Infrastructure provisioning | • Hours to deploy locally<br>• Immediate resource access<br>• Simplified security model | **10x faster deployment**<br>Quick response to business needs |
 | **Data Privacy & Security** | • Data stored with cloud providers<br>• Shared infrastructure<br>• Compliance challenges | • Full on-premises control<br>• No third-party data access<br>• Simplified compliance | **Zero data sovereignty risk**<br>Ideal for sensitive applications |
-| **Training Efficiency** | • 8+ hours per training run<br>• Limited parallel experiments<br>• High cloud compute costs | • 2 hours with optimizations<br>• Multiple parallel runs<br>• Minimal electricity cost | **4x faster iterations**<br>More experiments, better models |
+| **Training Efficiency** | • 8+ hours per training run<br>• Limited parallel experiments<br>• High cloud compute costs | • <2 hours with optimizations<br>• Multiple parallel runs<br>• Minimal electricity cost | **4x faster iterations**<br>More experiments, better models |
 | **Development Velocity** | • Budget-limited cloud credits<br>• Queue-based resource access<br>• Slow feedback cycles | • Unlimited local experimentation<br>• Immediate result feedback<br>• Continuous optimization | **Rapid prototyping capability**<br>Faster time-to-market |
 
 #### Key Technology Innovations
