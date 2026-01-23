@@ -1,0 +1,19 @@
+FROM TinyLlama/TinyLlama-1.1B-Chat-v1.0
+
+# Specify your LoRA adapter
+ADAPTER ./tinyllama-finetuned
+
+PARAMETER temperature 0.3
+PARAMETER top_p 0.9
+PARAMETER top_k 40
+PARAMETER num_ctx 1024
+
+TEMPLATE """<|system|>
+{system_message}</s>
+<|user|>
+{prompt}</s>
+<|assistant|>
+"""
+
+SYSTEM Extract JSON data from subscription information.
+Only output JSON for extraction requests.
