@@ -14,8 +14,9 @@
 
 - SQL Optimization - Improving database query performance
 
-#### Breaking the cost barrier of enterprise AI: 
-The project also demonstrates how to fine-tune sophisticated Large Language Models for complex data engineering tasks using consumer-grade NVIDIA RTX 4070 GPU instead of expensive enterprise hardware.
+### Key Innovation: Consumer GPU for Enterprise AI
+##### <ins>Hardware</ins>: NVIDIA RTX 4070 (Consumer GPU)
+##### This project also demonstrates a significant cost breakthrough - using a consumer-grade RTX 4070 GPU (8GB VRAM) instead of expensive enterprise-grade hardware to fine-tune LLMs for enterprise applications.
 
 ---
 
