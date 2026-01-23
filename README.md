@@ -45,7 +45,7 @@
 - **Development Agility:** 4x more experimental iterations
 - **Accessibility:** Democratizes AI for all organization sizes
 
-## Additional Enterprise Benefits
+## Project's Enterprise Benefits
 #### 1. Automated Data Engineering Workflows
 - 10x faster data pipeline design from requirements to implementation
 
@@ -73,3 +73,38 @@
 - Minimal infrastructure overhead: Runs on existing consumer hardware
 
 - Predictable costs: No surprise cloud GPU bills, one-time hardware investment
+---
+
+## Getting Started
+
+#### Prerequisites
+- NVIDIA GPU with 8GB+ VRAM (RTX 4070 recommended)
+
+- Python 3.10+
+
+- 16GB System RAM
+
+- 20GB Free Disk Space
+
+```python
+# 1. Clone the repository
+git clone https://github.com/yourusername/enterprise-data-engineering-llm.git
+cd enterprise-data-engineering-llm
+
+# 2. Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Generate training data (optional)
+python training_data/generation_script.py
+
+# 5. Run fine-tuning
+python src/model_training.py
+
+# 6. Test the model
+python src/testing_suite.py
+
+```
