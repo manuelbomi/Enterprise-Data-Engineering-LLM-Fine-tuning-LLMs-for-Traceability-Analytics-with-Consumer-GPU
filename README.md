@@ -88,7 +88,7 @@
 
 ```python
 # 1. Clone the repository
-git clone https://github.com/yourusername/enterprise-data-engineering-llm.git
+git clone https://github.com/manuelbomi/Enterprise-Data-Engineering-LLM-Fine-tuning-LLMs-for-Traceability-Analytics-with-Consumer-GPU.git
 cd enterprise-data-engineering-llm
 
 # 2. Create virtual environment
