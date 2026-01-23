@@ -104,6 +104,8 @@ python generate_dataset.py  #you can also decid eto leave the code as it is sinc
 # 5. Run LLM fine-tuning and testing code
 python fine_tune_LLM_Data_Engineering.ipynb
 
-
-
 ```
+
+## Results
+
+##### The project is desinged to use the GPU  that is on the Dev's project environment to fine-tune the LLM. The GPU is RTX 4070 on Omen HP computer in our case. You may first need to install the relevant CUDA toolkit if the code (in cell 1 of fine_tune_LLM_Data_Engineering.ipynb) deos not naturally detect your GPU. 
