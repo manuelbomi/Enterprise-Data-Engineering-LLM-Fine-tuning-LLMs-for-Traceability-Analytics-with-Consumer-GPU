@@ -17,12 +17,14 @@
 #### Breaking the cost barrier of enterprise AI: 
 The project also demonstrates how to fine-tune sophisticated Large Language Models for complex data engineering tasks using consumer-grade NVIDIA RTX 4070 GPU instead of expensive enterprise hardware.
 
+---
+
 
 ### Project Highlights: Traditional vs Low-Cost LLM Fine-Tuning 
 
 | Development Aspect | Traditional Enterprise Approach | Our Efficient Solution | Competitive Advantage |
 |-------------------|---------------------------------|------------------------|----------------------|
-| **Hardware Investment** | • A100/H100 GPUs<br>• $10,000+ per unit<br>• Enterprise licensing | • RTX 4070/4080<br>• $600-$1200 per unit<br>• Consumer hardware | **94% lower cost**<br>Accessible to small teams & startups |
+| **Hardware Investment** | • A100/H100 GPUs<br>• $10,000+ per unit<br>• Enterprise licensing | • RTX 4070/4080<br>• $600-$1500 per unit<br>• Consumer hardware | **94% lower cost**<br>Accessible to small teams & startups |
 | **Deployment Timeline** | • Days waiting for cloud resources<br>• Security/compliance reviews<br>• Infrastructure provisioning | • Hours to deploy locally<br>• Immediate resource access<br>• Simplified security model | **10x faster deployment**<br>Quick response to business needs |
 | **Data Privacy & Security** | • Data stored with cloud providers<br>• Shared infrastructure<br>• Compliance challenges | • Full on-premises control<br>• No third-party data access<br>• Simplified compliance | **Zero data sovereignty risk**<br>Ideal for sensitive applications |
 | **Training Efficiency** | • 8+ hours per training run<br>• Limited parallel experiments<br>• High cloud compute costs | • 2 hours with optimizations<br>• Multiple parallel runs<br>• Minimal electricity cost | **4x faster iterations**<br>More experiments, better models |
