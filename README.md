@@ -108,7 +108,7 @@ python fine_tune_LLM_Data_Engineering.ipynb
 
 ## Results
 
-The project is desinged to use the GPU  that is on the Dev's project environment to fine-tune the LLM. The GPU is RTX 4070 on Omen HP computer in our case. You may first need to install the relevant CUDA toolkit if the code (in cell 1 of fine_tune_LLM_Data_Engineering.ipynb) deos not naturally detect your GPU. The project uses the *unsloth* library (*from unsloth import FastLanguageModel*) to import an LLM (*gemma-2b-bnb-4bit* in our case), and then fine-tune the LLM using tokenized data and *LoRA* (*Low Rank Adaptation*) to enable the LLM to accomplish some specific enterprise task(s). 
+The project is desinged to use the Nvidia GPU  that is on the Dev's project environment to fine-tune the LLM. The GPU is RTX 4070 on Omen HP computer in our case. You may first need to install the relevant CUDA toolkit if the code (in cell 1 of fine_tune_LLM_Data_Engineering.ipynb) deos not naturally detect your GPU. The project uses the *unsloth* library (*from unsloth import FastLanguageModel*) to import an LLM (*gemma-2b-bnb-4bit* in our case), and then fine-tune the LLM using tokenized data and *LoRA* (*Low Rank Adaptation*) to enable the LLM to accomplish some specific enterprise task(s). 
 
 The tasks in our case are data engineering specific, and they include: 
 
