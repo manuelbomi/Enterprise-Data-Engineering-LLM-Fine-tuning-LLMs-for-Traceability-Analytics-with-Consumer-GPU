@@ -1,8 +1,38 @@
-# Enterprise Data Engineering LLM: Fine-tuning for Traceability & Analytics with Consumer GPU
+# Enterprise Open-Weight LLM Fine-Tuning & GPU Optimization
 ### Revolutionizing Enterprise AI with Accessible Hardware
 
 ## Project Overview
-##### Enterprise Data Engineering LLM is a cutting-edge project that demonstrates how to fine-tune large language models (specifically Google's Gemma 2B) for enterprise data engineering tasks using consumer-grade hardware (RTX 4070). The project focuses on creating a specialized LLM capable of handling complex data engineering workflows including:
+Enterprise Open-Weight LLM Fine-Tuning & GPU Optimization is a hands-on AI engineering project demonstrating how to adapt, optimize, and run an open-weight Large Language Model (LLM) on local NVIDIA GPU infrastructure.
+
+The project fine-tunes Google's Gemma 2B using Parameter-Efficient Fine-Tuning (PEFT) and Low-Rank Adaptation (LoRA), combined with 4-bit quantization, to enable efficient model training and execution within the memory constraints of an NVIDIA RTX 4070 GPU with 8 GB VRAM.
+
+Rather than relying on large cloud GPU clusters, the project demonstrates how open-weight models can be specialized for enterprise workloads using resource-efficient fine-tuning and quantization techniques on locally controlled GPU infrastructure. This provides a practical foundation for organizations evaluating self-hosted AI, secure on-premises LLM deployment, model customization, and GPU-efficient AI workloads.
+
+The fine-tuned model is specialized across several representative enterprise tasks, including:
+
+Structured Information Extraction — transforming natural-language inputs into structured JSON outputs.
+Schema Inference — generating structured database schemas from natural-language requirements.
+Data Quality Rule Generation — producing validation and business-rule logic from data requirements.
+Pipeline Design — generating batch and streaming processing architectures.
+SQL Optimization — recommending query, indexing, and performance improvements.
+Key Technical Capabilities Demonstrated
+
+The project demonstrates several core capabilities required for building and operating self-hosted enterprise AI systems:
+
+- Open-weight LLM deployment and customization
+- Parameter-Efficient Fine-Tuning (PEFT)
+- Low-Rank Adaptation (LoRA)
+- 4-bit model quantization
+- GPU memory-efficient model training
+- Local NVIDIA GPU execution
+- Domain-specific LLM specialization
+- Structured-output generation
+- Model evaluation against specialized tasks
+- Foundations for secure on-premises AI deployment
+
+The broader objective is to demonstrate that organizations can adapt open-weight foundation models to specialized enterprise use cases while retaining greater control over model execution, infrastructure, and sensitive data, without requiring large-scale GPU infrastructure for every model-customization workload.
+
+After fine-tuning, the project focuses on creating a specialized LLM capable of handling complex data engineering workflows including:
 
 - Structured Data Extraction - Converting natural language descriptions into structured JSON
 
